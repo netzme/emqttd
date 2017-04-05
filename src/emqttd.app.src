@@ -1,0 +1,9 @@
+{application,emqttd,
+             [{description,"Erlang MQTT Broker"},
+              {vsn,"1.1.1"},
+              {id,"emqttd"},
+              {modules,[]},
+              {registered,[]},
+              {applications,[kernel,stdlib,gproc,eldap,esockd,mochiweb]},
+              {mod,{emqttd_app,[]}},
+              {env,[]}]}.
